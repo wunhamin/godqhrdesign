@@ -1,0 +1,141 @@
+/*#f45c5c
+rgb(153,247,199)*/
+body{
+  background-color: rgb(193,193,193);
+  /*color: white;*/
+}
+
+nav{
+  width: 100% !important;
+  background-color: #f45c5c !important;
+  padding: 0px 70px;
+  position: fixed;
+  z-index: 200;
+}
+div.container{
+  min-width: 100%;
+  margin: 0;
+}
+.nav-wrapper a img{
+  width: 80px;
+}
+.sidebar{
+  padding-top: 64px;
+  /*height: 860px;*/
+  height: 760px;
+  background-color: rgb(223,223,223)
+}
+.sidebar i{
+  color: #d2d2d2;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.sidebar img{
+  width: 100%;
+  height: 100%;
+}
+.carder{
+  height: 500px;
+  background-color: rgb(153,247,182);
+}
+.car-text{
+  text-align: center;
+  padding-top: 35px;
+    margin-bottom: 30px;
+}
+.car-text hr{
+  border: 1px solid rgb(79, 200, 99);
+  width: 20%;
+  margin-top: 15px
+}
+.car-text p{
+  margin: 0;
+  font-size: 17px;
+}
+.car-text p:first-child{
+  font-size: 25px;
+  /*font-weight: 600;*/
+}
+.row{
+  margin: 0;
+  padding: 0px 70px;
+  width: 100%
+}
+.row .col.s3{
+  width: 23.91%;
+  margin-left: 20px;
+  padding: 0;
+}
+.row .col.s3:first-child{
+  margin: 0;
+}
+.col.s3 .card{
+  background-color: rgb(200,255,217);
+  text-align: center;
+  margin: 0;;
+}
+.card-image.waves-effect.waves-block.waves-light{
+  cursor: auto;
+}
+.col.s3 p{
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: -17px;
+}
+.col.s3 img{
+  width: 100%;
+  height: 100%;
+}
+.texter{
+  height: 700px;
+  background-color: rgb(247,153,153);
+}
+.tex-top{
+  background-color: rgb(247,153,207);
+  height: 500px;
+}
+.tex-img{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.tex-img img{
+  width: 50%;
+  height: 50%;
+}
+.tex-down{
+  background-color: rgb(247,153,153);
+}
+.tex-down p{
+  text-align: center;
+  font-size: 27px;
+  margin: 0;
+  padding-top: 20px;
+}
+.card{
+  /*background-color: rgb(244,91,91);*/
+}
+.card:hover{
+  box-shadow: 3px 3px rgba(59,59,59,.4);
+}
+.moiver{
+  height: 800px;
+  background-color: rgb(153,247,208)
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  margin-top: -15px;
+  width: 100%;
+  height: 70px;
+  background-color: #f45c5c;
+  color: white;
+  font-size: 20px;
+  padding: 0px 70px;
+  justify-content: space-around;
+}
